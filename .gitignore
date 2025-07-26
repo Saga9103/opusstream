@@ -1,0 +1,8 @@
+cmake-build-release
+dist
+build
+wheelhouse
+opusstream.egg-info
+*.so
+*.bak
+*.env
