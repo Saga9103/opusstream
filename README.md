@@ -1,14 +1,14 @@
 # opusstream
 encodes pcm to opus format and decodes opus to pcm live 
 
-# install opus and required dependencies :
+# Install opus and required dependencies :
 ```bash
 git clone https://github.com/Saga9103/opusstream.git
 cd opusstream
 sudo ./install_opus.sh
 ```
 
-# install the package : <br>
+# Install the package : <br>
 ```bash
 cd opusstream
 # either
@@ -17,7 +17,7 @@ pip install -e .
 python3 setup.py build_ext --inplace
 ```
 
-# In your python script :
+# In your python script or just see opus_mic_test.py :
 ```bash
 import opusstream
 import numpy as np
