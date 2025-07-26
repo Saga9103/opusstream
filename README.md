@@ -1,10 +1,6 @@
 # opusstream
 encodes pcm to opus format and decodes opus to pcm live 
 
-# opusstream
-encodes pcm to opus format and decodes opus to pcm all live
-
-
 # install opus and required dependencies :
 ```bash
 sudo ./install_opus.sh
