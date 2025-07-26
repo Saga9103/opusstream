@@ -38,7 +38,7 @@ encoder = opusstream.StreamEncoder(
     channels=1,               # Mono
     bitrate=24000,           # 24 kbps for voice
     signal_type=2,           # VOICE mode (optimized algorithm), 0 is AUTO, 1 is MUSIC
-    complexity=3,            # CRITICAL: Lowest complexity, from 0 to 10, 5-6 is a good balance, 3-4 for embedded but even 0 is good
+    complexity=3,            # important for low power device : Lowest complexity, from 0 to 10, 5-6 is a good balance, 3-4 for embedded but even 0 is good
     frame_duration_ms=20     # Standard frame size. possible frame sizes are : 2.5, 5, 10, 20 (good lattency but more calls, more CPU encoding), 40, 60
 )
 
