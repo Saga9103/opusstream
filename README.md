@@ -3,6 +3,8 @@ encodes pcm to opus format and decodes opus to pcm live
 
 # install opus and required dependencies :
 ```bash
+git clone https://github.com/Saga9103/opusstream.git
+cd opusstream
 sudo ./install_opus.sh
 ```
 
