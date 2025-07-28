@@ -1,13 +1,28 @@
 # opusstream
 encodes pcm to opus format and decodes opus to pcm live 
 
+
 # Install opus and required dependencies :
 ```bash
-sudo apt install -y portaudio19-dev python3-dev
 git clone https://github.com/Saga9103/opusstream.git
 cd opusstream
 sudo ./install_opus.sh
 ```
+
+# For some Raspberry Pi versions :
+```bash
+sudo apt install autoconf automake libtool pkg-config
+git clone https://github.com/xiph/libopusenc
+cd libopusenc
+./autogen.sh
+./configure
+sudo make install
+sudo ldconfig
+```
+
+# Installer les libs et headers (optionnel, root requis)
+sudo make install
+sudo ldconfig
 
 # Install the package : <br>
 ```bash
