@@ -10,6 +10,7 @@ sudo ./install_opus.sh
 ```
 
 # For some Raspberry Pi versions :
+Because you wont have libopusenc-dev from apt
 ```bash
 sudo apt install autoconf automake libtool pkg-config
 git clone https://github.com/xiph/libopusenc
