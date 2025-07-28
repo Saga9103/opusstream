@@ -21,6 +21,9 @@ sudo make install
 sudo ldconfig
 ```
 
+also :
+`pip install RPi.GPIO`
+
 # Installer les libs et headers (optionnel, root requis)
 sudo make install
 sudo ldconfig
