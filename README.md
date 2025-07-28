@@ -22,7 +22,7 @@ sudo ldconfig
 ```
 
 also :
-`pip install RPi.GPIO`
+`pip install RPi.GPIO` (for the RPI example)
 
 # Install the package : <br>
 ```bash
