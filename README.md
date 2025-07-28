@@ -3,6 +3,7 @@ encodes pcm to opus format and decodes opus to pcm live
 
 # Install opus and required dependencies :
 ```bash
+sudo apt install -y portaudio19-dev python3-dev
 git clone https://github.com/Saga9103/opusstream.git
 cd opusstream
 sudo ./install_opus.sh
