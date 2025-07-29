@@ -17,6 +17,7 @@ git clone https://github.com/xiph/libopusenc
 cd libopusenc
 ./autogen.sh
 ./configure
+make
 sudo make install
 sudo ldconfig
 ```
